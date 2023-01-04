@@ -1,0 +1,28 @@
+Welcome, Teacher !
+Enter The Question : Who?
+Enter Option A : Bird
+Enter Option B : Human
+Enter Option C : Animal
+Enter Option D : Tree
+Enter The Correct Option (A, B, C, D) : B
+Quiz
+{ 'Who?': [ 'Bird', 'Human', 'Animal', 'Tree' ] }
+Answers
+[ 'B' ]
+Options
+[ 'Bird', 'Human', 'Animal', 'Tree' ]
+Enter The Question : How?
+Enter Option A : Bike
+Enter Option B : Car
+Enter Option C : Ship
+Enter Option D : Flight    
+Enter The Correct Option (A, B, C, D) : D
+Quiz
+{
+  'Who?': [ 'Bird', 'Human', 'Animal', 'Tree' ],
+  'How?': [ 'Bike', 'Car', 'Ship', 'Flight' ]
+}
+Answers
+[ 'B', 'D' ]
+Options
+[ 'Bike', 'Car', 'Ship', 'Flight' ]
