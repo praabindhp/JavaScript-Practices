@@ -32,15 +32,28 @@ TaskNinteen :: Property Value Shorthand
 TaskTwenty :: Ordered Like An Object
 
 Applications :: Concepts
-Functions-Extented_App :: Quiz Contest
-Quiz-Extended_App :: Complete Quiz Contest
+
+Functions-Extented_App :: Basic Quiz Contest
+Quiz-Extended_App :: Extended Basic Quiz Contest
 
 Program :: Concepts
+
 Sum_SubArray :: Find Subarray with given sum | Set 1 (Non-negative Numbers)
 
 Leet Code :: Question Solved
+
 Two_Sum :: Two Sum
 Add_Two-Num :: Add Two Numbers Using Linked List
 Contains_Duplicate :: Find Duplicate Values In A Array
 Unsorted_SubArray :: Shortest Unsorted Continous Subarray
 Max_SubArray :: Find Subarray With Largest Sum & Return Sum
+
+Day - 3
+Tasks :: Functionality
+
+Applications :: Concepts
+Quiz-Extended_App :: Extended Basic Quiz Contest
+
+Program :: Concepts
+
+Leet Code :: Question Solved
