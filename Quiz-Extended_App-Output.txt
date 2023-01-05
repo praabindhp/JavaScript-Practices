@@ -26,3 +26,7 @@ Answers
 [ 'B', 'D' ]
 Options
 [ 'Bike', 'Car', 'Ship', 'Flight' ]
+
+for(let item of Quiz){
+  console.log(`${key} ${item}`)
+}

@@ -50,9 +50,12 @@ Max_SubArray :: Find Subarray With Largest Sum & Return Sum
 
 Day - 3
 Tasks :: Functionality
+TaskTwentyOne :: this Method
+TaskTwentyTwo :: Constructor Function
+TaskTwentyThree :: Return From Constructors
 
 Applications :: Concepts
-Quiz-Extended_App :: Extended Basic Quiz Contest
+Quiz-Complete_App :: Complete Quiz Contest
 
 Program :: Concepts
 
