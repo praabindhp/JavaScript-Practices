@@ -45,8 +45,6 @@ Leet Code :: Question Solved
 Two_Sum :: Two Sum
 Add_Two-Num :: Add Two Numbers Using Linked List
 Contains_Duplicate :: Find Duplicate Values In A Array
-Unsorted_SubArray :: Shortest Unsorted Continous Subarray
-Max_SubArray :: Find Subarray With Largest Sum & Return Sum
 
 Day - 3
 Tasks :: Functionality
@@ -60,6 +58,10 @@ TaskTwentySeven :: Symbol.keyFor
 TaskTwentyEight :: Symbol.toPrimitive
 TaskTwentyNine :: Comparing String
 TaskThirty :: Matrix Iteration
+TaskThirtyOne :: Search In Array
+TaskThirtyTwo :: Array Filtration
+TaskThirtyThree :: Range[Symbol.iterator]()
+TaskThirtyFour :: Iteration Over Map
 
 Applications :: Concepts
 Quiz-Complete_App :: Complete Quiz Contest
@@ -67,3 +69,6 @@ Quiz-Complete_App :: Complete Quiz Contest
 Program :: Concepts
 
 Leet Code :: Question Solved
+Unsorted_SubArray :: Shortest Unsorted Continous Subarray
+Max_SubArray :: Find Subarray With Largest Sum & Return Sum
+Pow_Function :: Pow(x, n) - Power Of X To N

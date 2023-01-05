@@ -30,7 +30,10 @@ console.log(q);
 
 // Get Options
 let ans = readline.question('Enter Your Option');
-
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
 // Answer Check Function Call
 checkAns(ans, o);
 // End Program
