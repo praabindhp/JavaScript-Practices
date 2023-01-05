@@ -53,6 +53,13 @@ Tasks :: Functionality
 TaskTwentyOne :: this Method
 TaskTwentyTwo :: Constructor Function
 TaskTwentyThree :: Return From Constructors
+TaskTwentyFour :: Short-Circuiting
+TaskTwentyFive :: Short-Circuiting Variants ?.(), ?.[]
+TaskTwentySix :: Symbol's Hidden Properties
+TaskTwentySeven :: Symbol.keyFor
+TaskTwentyEight :: Symbol.toPrimitive
+TaskTwentyNine :: Comparing String
+TaskThirty :: Matrix Iteration
 
 Applications :: Concepts
 Quiz-Complete_App :: Complete Quiz Contest
