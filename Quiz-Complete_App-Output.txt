@@ -1,0 +1,93 @@
+Welcome, Teacher !
+Enter The Question : Who?
+Enter Option 1 : Human
+Enter Option 2 : Bird
+Enter Option 3 : Animal
+Enter Option 4 : Tree
+
+Enter The Correct Option (1, 2, 3, 4) : 1
+Quiz
+{ 'Who?': [ 'Human', 'Bird', 'Animal', 'Tree' ] }
+Answers
+[ '1' ]
+Options
+[ 'Human', 'Bird', 'Animal', 'Tree' ]
+Enter The Question : How?
+Enter Option 1 : Car
+Enter Option 2 : Train
+Enter Option 3 : Bus
+Enter Option 4 : Bike
+
+Enter The Correct Option (1, 2, 3, 4) : 2
+Quiz
+{
+  'Who?': [ 'Human', 'Bird', 'Animal', 'Tree' ],
+  'How?': [ 'Car', 'Train', 'Bus', 'Bike' ]
+}
+Answers
+[ '1', '2' ]
+Options
+[ 'Car', 'Train', 'Bus', 'Bike' ]
+Enter The Question : When?
+Enter Option 1 : Today
+Enter Option 2 : Tomorrow
+Enter Option 3 : Now
+Enter Option 4 : Yesterday
+
+Enter The Correct Option (1, 2, 3, 4) : 3
+Quiz
+{
+  'Who?': [ 'Human', 'Bird', 'Animal', 'Tree' ],
+  'How?': [ 'Car', 'Train', 'Bus', 'Bike' ],
+  'When?': [ 'Today', 'Tomorrow', 'Now', 'Yesterday' ]
+}
+Answers
+[ '1', '2', '3' ]
+Options
+[ 'Today', 'Tomorrow', 'Now', 'Yesterday' ]
+Enter The Question : 
+
+Thank You ! For Adding The Questions
+
+Welcome, Student !
+All The Very Best Of Luck :}
+
+The Question Is : 
+Who?
+
+The Options Are : 
+Option 1 : Human
+Option 2 : Bird
+Option 3 : Animal
+Option 4 : Tree
+Enter Your Option (1, 2, 3, 4) : 1
+
+The Question Is : 
+How?
+
+The Options Are : 
+Option 1 : Car
+Option 2 : Train
+Option 3 : Bus
+Option 4 : Bike
+Enter Your Option (1, 2, 3, 4) : 2
+
+The Question Is : 
+When?
+
+The Options Are : 
+Option 1 : Today
+Option 2 : Tomorrow
+Option 3 : Now
+Option 4 : Yesterday
+Enter Your Option (1, 2, 3, 4) : 3
+[ '1', '2', '3' ]
+
+Thank You ! For Attending The Test
+
+Great !!! The Answers Are Correct :(
+
+You Scored 3 Out Of 3
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
