@@ -62,6 +62,8 @@ TaskThirtyOne :: Search In Array
 TaskThirtyTwo :: Array Filtration
 TaskThirtyThree :: Range[Symbol.iterator]()
 TaskThirtyFour :: Iteration Over Map
+LinkedList-Basic :: Basic Linked List
+LinkedList :: Operations In Linked List
 
 Applications :: Concepts
 Quiz-Complete_App :: Complete Quiz Contest
