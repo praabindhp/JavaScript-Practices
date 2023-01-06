@@ -62,6 +62,7 @@ TaskThirtyOne :: Search In Array
 TaskThirtyTwo :: Array Filtration
 TaskThirtyThree :: Range[Symbol.iterator]()
 TaskThirtyFour :: Iteration Over Map
+
 LinkedList-Basic :: Basic Linked List
 LinkedList :: Operations In Linked List
 
@@ -74,3 +75,18 @@ Leet Code :: Question Solved
 Unsorted_SubArray :: Shortest Unsorted Continous Subarray
 Max_SubArray :: Find Subarray With Largest Sum & Return Sum
 Pow_Function :: Pow(x, n) - Power Of X To N
+
+Day - 3
+Tasks :: Functionality
+
+TaskThirtyFive :: Dynamic Power Function
+TaskThirtySix :: Recursive Traversals
+TaskThirtySeven :: Sum Upto Limit Using Recursion
+
+Applications :: Concepts
+X_O-Game_Basic :: Basic X - O Game Using JavaScript
+
+Program :: Concepts
+LinkedList :: Operations In Linked List
+
+Leet Code :: Question Solved
