@@ -1,9 +1,11 @@
 // Constructor Function
 
-function Person(firstName, lastName, dob) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.dob = new Date(dob);
+class Person {
+    constructor(firstName, lastName, dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = new Date(dob);
+    }
 }
 
 // Instantiate Object

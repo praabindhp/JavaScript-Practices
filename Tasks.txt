@@ -76,7 +76,7 @@ Unsorted_SubArray :: Shortest Unsorted Continous Subarray
 Max_SubArray :: Find Subarray With Largest Sum & Return Sum
 Pow_Function :: Pow(x, n) - Power Of X To N
 
-Day - 3
+Day - 4
 Tasks :: Functionality
 
 TaskThirtyFive :: Dynamic Power Function
@@ -89,5 +89,26 @@ Train_Reservation-Basic :: Train Booking & Cancellation
 
 Program :: Concepts
 LinkedList :: Operations In Linked List
+
+Leet Code :: Question Solved
+
+Day - 5
+Tasks :: Functionality
+
+TaskThirtyEight :: Ternary Switch Operations
+TaskThirtyNine :: Constructor Functionality
+TaskForty :: String Variable Naming
+TaskFortyOne :: Class Constructor Operations
+TaskFortyTwo ::
+
+Applications :: Concepts
+Basic-Date_Retriever_App :: Age Directory Creation
+Age-Retriever_App :: Age Retriever Application
+Basic-ToDo_App :: ToDo Task Manager
+ToDo_App :: Managing ToDo Tasks
+
+Program :: Concepts
+Palindrome
+Amstrong
 
 Leet Code :: Question Solved
