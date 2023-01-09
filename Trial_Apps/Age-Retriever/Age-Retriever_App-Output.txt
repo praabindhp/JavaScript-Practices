@@ -1,0 +1,27 @@
+Welcome, To Age Retriever !
+Enter Number Of Person(s) : 2
+
+[1] Person's First Name : Praabindh            
+[1] Person's Last Name : Pradeep
+[1] Person's D.O.B [YYYY-MM-DD]: 2000-12-10
+
+Thank You, Datas Are Stored.
+
+[2] Person's First Name : Pradeep
+[2] Person's Last Name : Kumar
+[2] Person's D.O.B [YYYY-MM-DD]: 1970-08-27
+
+Thank You, Datas Are Stored.
+{
+  '0': [ 'Praabindh', 'Pradeep', '2000-12-10' ],
+  '1': [ 'Pradeep', 'Kumar', '1970-08-27' ],
+  createdTime: 'Sun Jan 08 2023 20:26:05 GMT+0530 (India Standard Time)'
+}
+
+Howdy, Praabindh Pradeep !
+You Were Born On Sun Dec 10 2000
+You Are 21 Years Old
+
+Howdy, Pradeep Kumar !
+You Were Born On Thu Aug 27 1970
+You Are 52 Years Old
