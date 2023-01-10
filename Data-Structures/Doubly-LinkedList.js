@@ -1,3 +1,5 @@
+const readline = require('readline-sync')
+
 class Node {
     constructor(val) {
         this.val = val;
@@ -47,7 +49,6 @@ class DoublyLinkedList {
 
 const Doublylist = new DoublyLinkedList();
 let data;
-import readline from "readline-sync";
 do {
     data = readline.question("Enter Data: ");
     if (data >= 0) {

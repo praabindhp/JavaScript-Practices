@@ -59,14 +59,34 @@ class LinkedList {
             this.prepend(value)
         } else {
             const node = new Node(value)
+            let current = this.head
+            for (let i = 0; i < index - 1; i++) {
+                current = current.next
+            }
+            node.next = current.next
+            current.next = node
+            this.size++
+        }
+    }
+
+    removeFrom(index) {
+        if (index < 0 || index >= this.size) {
+            console.log("No Element");
+        }
+        let removedNode
+        if (index === 0) {
+            removedNode = this.head
+            this.head = this.head.next
+        } else {
             let previous = this.head
             for (let i = 0; i < index - 1; i++) {
                 previous = previous.next
             }
-            node.next = previous.next
-            previous.next = node
-            this.size++
+            removedNode = previous.next
+            previous.next = removedNode.next
         }
+        this.size--;
+        return removedNode.value
     }
 
     display() {
@@ -93,17 +113,19 @@ list.prepend(10);
 
 list.display();
 list.prepend(20);
-list.prepend(30);
-
-list.display(list);
+list.display();
 
 list.append(40);
-list.display(list);
+list.display();
 
 list.insert(50, 1);
-list.display(list);
+list.display();
 
-val = readline.question("Enter Data : ");
+val = readline.question("Enter Data To Insert : ");
 index = readline.question("Enter The Insertion Index : ");
 list.insert(val, index - 1);
-list.display(list);
+list.display();
+
+index = readline.question("Enter The Removal Index : ");
+list.removeFrom(index - 1);
+list.display();
