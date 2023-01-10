@@ -5,7 +5,7 @@
  */
 var relativeSortArray = function(arr1, arr2) {
     let result = {};
-    let first = []
+    let first = [];
     let last = [];
     //Creating an object with keys of second array elements : as an empty array
     for (let i = 0; i < arr2.length; i++) {
