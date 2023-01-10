@@ -34,6 +34,15 @@ class LinkedList {
         this.size++
     }
 
+    pop() {
+        let removedNode
+        removedNode = this.head
+        this.head = this.head.next
+        this.size--;
+        console.log("The Pop Operation Has Been Performed !");
+        console.log("The Value Removed By Pop Function : " + removedNode.value)
+    }
+
     peek() {
         if (this.isEmpty()) {
             console.log("The Stack Is Empty");
@@ -73,3 +82,5 @@ while (true) {
 }
 
 list.peek()
+list.pop()
+list.display()
