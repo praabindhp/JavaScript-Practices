@@ -9,7 +9,8 @@ class Node {
 
 class LinkedList {
     constructor() {
-        this.head = null
+        this.head = null;
+        this.tail = null;
         this.size = 0
     }
 
@@ -29,18 +30,35 @@ class LinkedList {
         }
     }
 
+    delete() {
+        if (this.isEmpty()) {
+            console.log("Empty");
+        } else {
+            let tempNode = this.head;
+            while (tempNode.next != this.tail) {
+                tempNode = tempNode.next;
+            }
+            tempNode.next = null;
+            this.tail = tempNode;
+        }
+        this.size--;
+    }
+
     insert(value) {
         const node = new Node(value)
 
         if (this.isEmpty()) {
             this.head = node
+            this.tail = node;
 
         } else {
-            let previous = this.head
-            while (previous.next) {
-                previous = previous.next
-            }
-            previous.next = node
+            // let previous = this.head
+            // while (previous.next) {
+            //     previous = previous.next
+            // }
+            // previous.next = node
+            this.tail.next = node;
+            this.tail = node;
         }
 
         this.size++
@@ -72,7 +90,8 @@ while (true) {
         let val = readline.question("Enter The Value To Insert : ")
         list.insert(val)
     } else if (choice == '2') {
-        list.pop()
+        list.delete();
+        list.display();
     } else if (choice == '3') {
         list.peek()
     } else if (choice == '4') {
