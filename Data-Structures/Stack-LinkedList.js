@@ -39,7 +39,7 @@ class LinkedList {
         removedNode = this.head
         this.head = this.head.next
         this.size--;
-        console.log("The Pop Operation Has Been Performed !");
+        console.log("The Pop Operation Has Been Performed !")
         console.log("The Value Removed By Pop Function : " + removedNode.value)
     }
 
@@ -66,21 +66,34 @@ class LinkedList {
     }
 }
 
+// while (true) {
+//     let val = readline.question("Enter Data To Be Pushed: ");
+//     if (val == "") {
+//         console.log("The Stack Is Implemented")
+//         list.display();
+//         break;
+//     } else {
+//         list.push(val);
+//     }
+// }
+
 const list = new LinkedList();
-console.log("Is The Stack Empty : ", list.isEmpty());
-console.log("Size Of The Stack : ", list.getSize());
 
 while (true) {
-    let val = readline.question("Enter Data To Be Pushed: ");
-    if (val == "") {
-        console.log("The Stack Is Implemented")
-        list.display();
-        break;
+    console.log("Howdy, Stack Using LinkedList Implementation !")
+    console.log("Operations / Functions :")
+    console.log("\n[1] : Push\n[2] : Pop\n[3] : Peek\n[4] : Display\n[ ] : Exit")
+    let choice = readline.question("\nEnter Your Selection [1, 2, 3, 4] : ")
+    if (choice == '1') {
+        let val = readline.question("Enter The Value To Push : ")
+        list.push(val)
+    } else if (choice == '2') {
+        list.pop()
+    } else if (choice == '3') {
+        list.peek()
+    } else if (choice == '4') {
+        list.display()
     } else {
-        list.push(val);
+        break;
     }
 }
-
-list.peek()
-list.pop()
-list.display()
