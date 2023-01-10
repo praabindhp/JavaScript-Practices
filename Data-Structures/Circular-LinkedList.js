@@ -46,7 +46,7 @@ const Circularlist = new CircularLinkedList();
 
 let data;
 do {
-    data = readline.question("Enter the data: ");
+    data = readline.question("Enter Data : ");
     if (data >= 0) {
         Circularlist.append(data);
         Circularlist.print();

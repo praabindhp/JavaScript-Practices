@@ -34,7 +34,7 @@ class DoublyLinkedList {
     }
     print() {
         if (this.isEmpty()) {
-            console.log("Doubly List is Empty");
+            console.log("Empty Doubly List");
         } else {
             let tempNode = this.head;
             let listValues = '';
@@ -50,7 +50,7 @@ class DoublyLinkedList {
 const Doublylist = new DoublyLinkedList();
 let data;
 do {
-    data = readline.question("Enter the data: ");
+    data = readline.question("Enter Data: ");
     if (data >= 0) {
         Doublylist.append(data);
         Doublylist.print();
