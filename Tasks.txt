@@ -126,3 +126,5 @@ JavaScript Application For Age Retriever Application
 Programming Concepts	
 Programming For Palindrome Using JavaScript	Palindrome Solving Method
 Programming For Armstrong Using JavaScript	Armstrong Program Solved
+
+Day - 6

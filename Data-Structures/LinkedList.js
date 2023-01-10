@@ -1,3 +1,6 @@
+// import readline from 'readline-sync';
+const readline = require('readline-sync');
+
 // Construct Single Node
 class Node {
     constructor(data, next = null) {
@@ -17,6 +20,7 @@ class LinkedList {
     insertFirst(data) {
         this.head = new Node(data, this.head);
         this.size++;
+
     }
 
     // Insert last node
@@ -60,7 +64,7 @@ class LinkedList {
         current = this.head;
         let count = 0;
 
-        while (count < index) {
+        while (count < index - 1) {
             previous = current; // Node before index
             count++;
             current = current.next; // Node after index
@@ -123,7 +127,6 @@ class LinkedList {
     // Print list data
     printListData() {
         let current = this.head;
-
         while (current) {
             console.log(current.data);
             current = current.next;
@@ -133,11 +136,14 @@ class LinkedList {
 
 const ll = new LinkedList();
 
+let value = readline.question("Enter The Data : ");
+let index = Number(readline.question("Enter The Index : "));
+
 ll.insertFirst(100);
 ll.insertFirst(200);
 ll.insertFirst(300);
 ll.insertLast(400);
-ll.insertAt(500, 3);
+ll.insertAt(value, index);
 
 // ll.clearList();
 // ll.getAt(2);
