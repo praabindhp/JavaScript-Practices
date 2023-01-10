@@ -69,7 +69,7 @@ while (true) {
     console.log("\n[1] : Insert\n[2] : Delete\n[3] : Peek\n[4] : Display\n[ ] : Exit")
     let choice = readline.question("\nEnter Your Selection [1, 2, 3, 4] : ")
     if (choice == '1') {
-        let val = readline.question("Enter The Value To Push : ")
+        let val = readline.question("Enter The Value To Insert : ")
         list.insert(val)
     } else if (choice == '2') {
         list.pop()
