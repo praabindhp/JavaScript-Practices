@@ -102,3 +102,8 @@ list.display(list);
 
 list.insert(50, 1);
 list.display(list);
+
+val = readline.question("Enter Data : ");
+index = readline.question("Enter The Insertion Index : ");
+list.insert(val, index - 1);
+list.display(list);
