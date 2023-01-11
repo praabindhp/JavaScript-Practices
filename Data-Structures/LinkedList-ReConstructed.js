@@ -1,4 +1,4 @@
-const readline = require('readline-sync')
+const readline = require('readline-sync');
 
 class Node {
     constructor(value) {
