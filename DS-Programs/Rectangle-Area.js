@@ -10,9 +10,6 @@ let ay1 = Number(readline.question("Enter Y1 For A : "));
 let ax2 = Number(readline.question("Enter X2 For A : "));
 let ay2 = Number(readline.question("Enter Y2 For A : "));
 
-let aArea = (ax2 - ax1) * (ay2 - ay1);
-console.log("The Area Of Rectangle A : " + aArea);
-
 let bx1 = Number(readline.question("Enter X1 For A : "));
 let by1 = Number(readline.question("Enter Y1 For A : "));
 let bx2 = Number(readline.question("Enter X2 For A : "));
