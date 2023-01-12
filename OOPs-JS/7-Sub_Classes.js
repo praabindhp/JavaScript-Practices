@@ -17,9 +17,9 @@ class Book {
 }
 
 // Magazine Sub-Class
-Class Magazine() {
-    constructor(title, author, year, month) {
-        super(title, author, year);
-        this.month = month;
-    }
-}
+// Class Magazine() {
+//     constructor(title, author, year, month) {
+//         super(title, author, year);
+//         this.month = month;
+//     }
+// }

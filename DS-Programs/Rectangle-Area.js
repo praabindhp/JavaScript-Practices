@@ -5,6 +5,7 @@
 // B(x2, y2) - Coordinates Of 2st Point Of Rectangle B
 
 const readline = require('readline-sync');
+
 let ax1 = Number(readline.question("Enter X1 For A : "));
 let ay1 = Number(readline.question("Enter Y1 For A : "));
 let ax2 = Number(readline.question("Enter X2 For A : "));
@@ -26,6 +27,15 @@ if (bx1 >= ax2 || by1 >= ay2 || ay1 >= by2 || ax1 >= bx2) {
 }
 
 // Output
+// Enter X1 For A : 0
+// Enter Y1 For A : 3
+// Enter X2 For A : 5
+// Enter Y2 For A : 4
+// Enter X1 For A : 2
+// Enter Y1 For A : 1
+// Enter X2 For A : 6
+// Enter Y2 For A : 4
+// The Total Area : 14
 
 // Tasks
 // Create A Circular Doubly LinkedList
