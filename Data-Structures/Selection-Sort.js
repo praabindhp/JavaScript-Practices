@@ -26,7 +26,7 @@ while(true){
         console.log("Thank You For Entering The Elements :)\n");
         console.log(selectionSort(arr));
         break;
-    } else{
+    } else {
         arr.push(Number(val));
     }
 }
