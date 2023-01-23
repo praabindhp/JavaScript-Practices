@@ -1,0 +1,15 @@
+Week - 1
+
+An Introduction to JavaScript,
+JavaScript Fundamentals,
+Code quality.
+
+Objects:
+The Basics,
+Data Types.
+
+Solve 5 Problems : 
+
+Date x2,
+Strings x2,
+Forms x1

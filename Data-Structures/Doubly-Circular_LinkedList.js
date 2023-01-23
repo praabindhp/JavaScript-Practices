@@ -1,4 +1,4 @@
-class CircularDoubleLinkedList {
+  class CircularDoubleLinkedList {
     push(element) {
         const node = this.createNode(element);
 

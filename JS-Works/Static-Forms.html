@@ -1,0 +1,26 @@
+<form name="my">
+    <h3>
+    Enter The First Value : 
+    </h3>
+    <input name="one" value="4">
+    <h3>
+    Enter The Second Value : 
+    </h3>
+    <input name="two" value="2">
+  </form>
+  
+  <script>
+    // get the form
+    let form = document.forms.my; // <form name="my"> element
+  
+    // get the element
+    let v1 = Number(form.elements.one.value); // <input name="one"> element
+    let v2 = Number(form.elements.two.value);
+    let add = v1 + v2;
+    let sub = v1 - v2;
+    let div = v1 / v2;
+    let mul = v1 * v2;
+    const res = "Addition : " + add + "\nDifference : " + sub + "\nProduct : " + mul + "\nDivision : " + div;
+
+    alert(res); // Result
+  </script>
