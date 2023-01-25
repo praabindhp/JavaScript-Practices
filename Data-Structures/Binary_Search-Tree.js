@@ -121,8 +121,6 @@ class BinarySearchTree {
     }
 
     levelOrder() {
-        /** Use the optimised queue enqueue and dequeue from queue-object.js instead.
-         * I've used an array for simplicity. */
         const queue = [];
         queue.push(this.root);
         while (queue.length) {
