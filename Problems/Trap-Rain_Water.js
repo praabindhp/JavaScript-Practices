@@ -9,7 +9,9 @@ var trap = function(height) {
     let leftMax = height[0];
     let rightMax = height[size -1];
     let leftArr = new Array(size);
+
     leftArr[0] = height[0];
+    
     let rightArr = new Array(size);
     rightArr[size-1] = height[size -1];
     for(let i=1;i<height.length;i++){
