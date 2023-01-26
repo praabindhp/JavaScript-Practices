@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+
 var rob = function(nums) {
     if(nums.length < 2){
         return nums[0]
