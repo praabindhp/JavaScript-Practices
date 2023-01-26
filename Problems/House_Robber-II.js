@@ -2,12 +2,13 @@
  * @param {number[]} nums
  * @return {number}
  */
+
 var rob = function(nums) {
     if (nums.length === 1) {
         return nums[0]
     }
 
-    function robSubset(subset = []) {
+    function lootArray(subset = []) {
         let rob1 = 0
         let rob2 = 0
         
@@ -20,5 +21,5 @@ var rob = function(nums) {
         return rob2
     }
 
-    return Math.max(robSubset(nums.slice(1)), robSubset(nums.slice(0, -1)))
+    return Math.max(lootArray(nums.slice(1)), lootArray(nums.slice(0, -1)))
 };
