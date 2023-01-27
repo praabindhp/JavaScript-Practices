@@ -1,9 +1,6 @@
-/**
- * @param {character[][]} board
- * @return {void} Do not return anything, modify board in-place instead.
- */
+
 var solveSudoku = function(board) {
-    let rows = Array.from(new Array(9), () => new Array(10).fill(0));
+     let rows = Array.from(new Array(9), () => new Array(10).fill(0));
      let cols = Array.from(new Array(9), () => new Array(10).fill(0));
      let boxes = Array.from(new Array(9), () => new Array(10).fill(0));
      
@@ -30,8 +27,9 @@ var solveSudoku = function(board) {
      let nextX = (x + 1) % 9;
      let nextY = nextX === 0 ? y + 1 : y;
  
-     if (board[y][x] !== '.') return dfs(board, nextX, nextY, rows, cols, boxes);
-     
+     if (board[y][x] !== '.'){
+        return dfs(board, nextX, nextY, rows, cols, boxes);
+     }
      for (let i = 1; i <= 9; i++) {
          let bx = Math.floor(x / 3);
          let by = Math.floor(y / 3);
