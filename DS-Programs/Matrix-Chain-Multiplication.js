@@ -19,7 +19,7 @@ function MatrixChainOrder(p , i , j)
 	return min;
 }
 
-var arr = [ 1, 2, 3, 4, 3 ];
+var arr = [ 1, 2, 3, 4];
 var N = arr.length;
 
 console.log("Minimum Number Of Multiplications Is : " + MatrixChainOrder(arr, 1, N - 1));
