@@ -40,3 +40,7 @@ class Node {
   
   tree.levelOrder();
   // Output: 1 2 3 4 5  
+
+  //     1
+  //   2   3
+  // 4   5
