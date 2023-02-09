@@ -4,16 +4,6 @@
  */
 
 var distinctNames = function(ideas) {
-    // we have to avoid using same start ch
-    // we have to avoid using same other ch
-    //["cake","coffee","donuts","time","toffee"]
-    // cake    toffee
-    // coffee  time
-
-    // cake   donuts
-    // coffee
-    // 2 * (ch1.size - sameCount) * (ch2.size - sameCount)
-
     let map = {}
 
     for(let idea of ideas){
