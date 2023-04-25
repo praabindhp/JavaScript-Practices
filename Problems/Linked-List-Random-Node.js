@@ -5,18 +5,19 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
+
 /**
  * @param {ListNode} head
  */
 var Solution = function(head) {
-    this.res = []; 
-    let curr = head;  
+    this.res = [];
+    let curr = head;
     
     while(curr !== null) {
         this.res.push(curr)
         curr = curr.next;
     }
-    this.length = this.res.length; 
+    this.length = this.res.length;
 };
 
 /**
