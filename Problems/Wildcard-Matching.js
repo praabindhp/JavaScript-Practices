@@ -12,7 +12,7 @@ const isMatch = function (string, pattern) {
       if ((p < pattern.length && string[s] === pattern[p]) || pattern[p] === "?") {
         s++;
         p++;
-      } 
+      }
       else if (p < pattern.length && pattern[p] === "*") {
         starIdx = p;
         pointer = s;
@@ -30,3 +30,4 @@ const isMatch = function (string, pattern) {
     }
     return true;
   };
+
